@@ -12,6 +12,6 @@ public class HelloController {
 	    }
 	 @RequestMapping("/about")
 	 	public String about() {
-		 return "jenkins test multi project app ";
+		 return "jenkins testing multi project app ";
 	 }
 }

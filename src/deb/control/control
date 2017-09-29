@@ -1,5 +1,5 @@
 Package: jenkinstest
-Version: v1
+Version: 0.0.1~SNAPSHOT
 Section: misc
 Priority: low
 Architecture: all

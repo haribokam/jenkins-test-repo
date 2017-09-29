@@ -1,5 +1,5 @@
-Package: [[jenkinstest]]
-Version: [[v1]]
+Package: jenkinstest
+Version: v1
 Section: misc
 Priority: low
 Architecture: all

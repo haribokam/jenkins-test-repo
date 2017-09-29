@@ -6,7 +6,6 @@
 	<groupId>com.dataguise</groupId>
 	<artifactId>jenkinstest</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
 
 	<name>jenkinstest</name>
 	<description>Demo project for Spring Boot</description>
@@ -47,6 +46,19 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+			<plugin>
+          		<artifactId>jdeb</artifactId>
+          		<groupId>org.vafer</groupId>
+          		<version>1.3</version>
+          		<executions>
+    				<execution>
+      					<phase>package</phase>
+      					<goals>
+        					<goal>jdeb</goal>
+      					</goals>
+      				</execution>
+      			</executions>
+        	</plugin>
 		</plugins>
 	</build>
 
